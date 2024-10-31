@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willkommen auf meiner persönlichen Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Meine Website</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="uebermich.html">Über mich</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hauptinhalt -->
+    <div class="container mt-5">
+        <h1>Willkommen auf meiner persönlichen Website!</h1>
+        <p>Kurs: Web Programmierung von Marcel Krüger</p>
+        <p>Informatiker Winter 2024</p>
+        <p>Name: Marcel Krüger</p>
+        <p>Ort: Bielefeld</p>
+
+        <!-- Kontaktformular -->
+        <h2>Kontaktieren Sie mich</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Ihr Name">
+            </div>
+            <div class="form-group">
+                <label for="email">E-Mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="Ihre E-Mail-Adresse">
+            </div>
+            <div class="form-group">
+                <label for="message">Nachricht:</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Ihre Nachricht"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Senden</button>
+        </form>
+    </div>
+
+    <!-- Fußzeile -->
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3">
+            © 2024 Ihre Website
+        </div>
+    </footer>
+
+</body>
+</html>
